@@ -120,7 +120,7 @@ body {
   box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   text-align: center;
   background-color: #557571;
-  height: 1000px;
+  height: 800px;
   border-radius: 100px;
   margin: 15px;
 }
@@ -169,4 +169,37 @@ body {
     transform: translateX(0);
     opacity: 1;
   }
+}
+
+a {
+ text-decoration: none;
+}
+
+.contactList {
+  padding-top: 5%;
+  margin: 0;
+}
+
+.contactList ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contactList ul li {
+  padding-top: 6%;
+}
+
+.contactLinkText {
+  color: #f2f2f2;
+  font-size: 25px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.profileImg {
+  width: 256px;
+  height: 256px;
+  border-radius: 100px 0 0 0;
+  float: left;
+  padding-left: 30px;
+  padding-top: 30px;
 }
