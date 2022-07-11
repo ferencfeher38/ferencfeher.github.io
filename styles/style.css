@@ -120,7 +120,6 @@ body {
   box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   text-align: center;
   background-color: #557571;
-  height: 800px;
   border-radius: 100px;
   margin: 15px;
 }
@@ -173,20 +172,21 @@ body {
 
 a {
  text-decoration: none;
+ color: white;
 }
 
-.contactList {
-  padding-top: 5%;
-  margin: 0;
+.flexContactList {
+  padding-top: 50px;
+  padding-left: 0px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px 0px;
 }
 
 .contactList ul {
   list-style: none;
-  padding: 0;
-}
-
-.contactList ul li {
-  padding-top: 6%;
 }
 
 .contactLinkText {
@@ -224,5 +224,16 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+}
+
+.aboutText {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  margin-left: 70px;
+  margin-right: 70px;
+  color: white;
+  text-align: justify;
+  font-family: 'Roboto Mono', monospace;
 }
