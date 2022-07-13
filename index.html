@@ -7,13 +7,16 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Ferenc Feher</title>
   <script src="../scripts/index.js"></script>
-  <link rel="stylesheet" href="/styles/style.css" />
+  <link rel="stylesheet" href="../styles/style.css" />
+  <link rel="stylesheet" href="../styles/slides.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Square+Peg&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+NSW+ACT+Foundation:wght@500&family=Lobster&family=Lobster+Two&family=Oswald:wght@300&family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+NSW+ACT+Foundation:wght@500&family=Lobster&family=Lobster+Two&family=Oswald:wght@300&family=Roboto+Mono&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -54,7 +57,92 @@
   </section>
   <section id="work">
     <div class="column reveal fade-right" id="workColumn">
-      <div class="card" id="workCard"></div>
+      <div class="card" id="workCard">
+        <div class="container">
+          <div class="slides">
+            <div class="numbertext">1 / 8</div>
+            <img src="../sources/pictures/hotel.png" style="width:100%">
+          </div>
+
+          <div class="slides">
+            <div class="numbertext">2 / 8</div>
+            <img src="../sources/pictures/imdb.png" style="width:100%">
+          </div>
+
+          <div class="slides">
+            <div class="numbertext">3 / 8</div>
+            <img src="../sources/pictures/nutrition.png" style="width:100%">
+          </div>
+
+          <div class="slides">
+            <div class="numbertext">4 / 8</div>
+            <img src="../sources/pictures/travel.png" style="width:100%">
+          </div>
+
+          <div class="slides">
+            <div class="numbertext">5 / 8</div>
+            <img src="../sources/pictures/snake.png" style="width:100%">
+          </div>
+
+          <div class="slides">
+            <div class="numbertext">6 / 8</div>
+            <img src="../sources/pictures/station.png" style="width:100%">
+          </div>
+
+          <div class="slides">
+            <div class="numbertext">7 / 8</div>
+            <img src="../sources/pictures/stickdetection.png" style="width:100%">
+          </div>
+
+          <div class="slides">
+            <div class="numbertext">8 / 8</div>
+            <img src="../sources/pictures/shark.png" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+
+          <div class="slideRow">
+            <div class="slideColumn">
+              <img class="demo cursor" src="../sources/pictures/hotel.png" style="width:100%" onclick="currentSlide(1)"
+                alt="Hotel">
+            </div>
+            <div class="slideColumn">
+              <img class="demo cursor" src="../sources/pictures/imdb.png" style="width:100%" onclick="currentSlide(2)"
+                alt="IMDb">
+            </div>
+            <div class="slideColumn">
+              <img class="demo cursor" src="../sources/pictures/nutrition.png" style="width:100%"
+                onclick="currentSlide(3)" alt="Nutrition">
+            </div>
+            <div class="slideColumn">
+              <img class="demo cursor" src="../sources/pictures/travel.png" style="width:100%" onclick="currentSlide(4)"
+                alt="Travel">
+            </div>
+            <div class="slideColumn">
+              <img class="demo cursor" src="../sources/pictures/snake.png" style="width:100%" onclick="currentSlide(5)"
+                alt="Snake">
+            </div>
+            <div class="slideColumn">
+              <img class="demo cursor" src="../sources/pictures/station.png" style="width:100%"
+                onclick="currentSlide(6)" alt="Train Station">
+            </div>
+            <div class="slideColumn">
+              <img class="demo cursor" src="../sources/pictures/stickdetection.png" style="width:100%"
+                onclick="currentSlide(7)" alt="Stick Detection">
+            </div>
+            <div class="slideColumn">
+              <img class="demo cursor" src="../sources/pictures/shark.png" style="width:100%" onclick="currentSlide(8)"
+                alt="Shark">
+            </div>
+          </div>
+        </div>
+        <script src="../scripts/slides.js"></script>
+      </div>
     </div>
   </section>
   <section id="contact">
