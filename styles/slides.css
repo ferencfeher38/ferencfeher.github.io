@@ -89,16 +89,16 @@ img {
     color: white;
 }
 
-.slideRow:after {
-    content: "";
-    display: table;
-    clear: both;
+.slideRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Six columns side by side */
 .slideColumn {
-    float: left;
-    width: 16.66%;
+    width: 16%;
 }
 
 /* Add a transparency effect for thumnbail images */
@@ -109,4 +109,30 @@ img {
 .active,
 .demo:hover {
     opacity: 1;
+}
+
+.imgTitle {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #b4cfb0;
+    color: #557571;
+    padding: 10px;
+    border-radius: 100px;
+    width: 40%;
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+.imgText {
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 2px;
 }
