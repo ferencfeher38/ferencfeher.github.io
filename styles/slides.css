@@ -258,8 +258,8 @@ img {
 
 @media screen and (max-width: 700px) {
     .imgTitle {
-        width: 90%;
-        font-size: 17.5;
+        width: 70%;
+        font-size: 16px;
     }
 
     .next {
@@ -275,12 +275,42 @@ img {
 
 @media screen and (max-width: 630px) {
     .imgTitle {
-        width: 95%;
+        width: 80%;
     }
 }
 
 @media screen and (max-width: 425px) {
     .slideColumn {
         width: 32.5%;
+    }
+}
+
+@media screen and (min-width: 2240px) {
+    .next {
+        top: 35%;
+        padding: 20px;
+        border-radius: 0 20px 20px 0;
+        font-size: 25px;
+    }
+    
+    .prev {
+        top: 35%;
+        padding: 20px;
+        border-radius: 20px 0px 0px 20px;
+        font-size: 25px;
+    }
+
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 25px;
+        padding-bottom: 12.5px;
+    }
+
+    .imgTitle {
+        font-size: 30px;
+    }
+    
+    .imgText {
+        font-size: 30px;
     }
 }

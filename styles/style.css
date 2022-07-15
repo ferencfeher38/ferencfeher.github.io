@@ -101,7 +101,7 @@ body {
   margin-top: 200px;
   margin-left: 10px;
   margin-right: 10px;
-  margin-bottom: 1000px;
+  margin-bottom: 500px;
   font-family: "Square Peg", cursive;
   animation-name: display;
   animation-duration: 5s;
@@ -208,6 +208,16 @@ a {
   gap: 50px 0px;
 }
 
+.contactList ul {
+  list-style: none;
+}
+
+.contactLinkText {
+  color: #f2f2f2;
+  font-size: 25px;
+  font-family: "Bebas Neue", cursive;
+}
+
 @media screen and (max-width: 1000px) {
   .flexContactList img {
     width: 100px;
@@ -228,16 +238,6 @@ a {
   .flexContactList p {
     font-size: 15px;
   }
-}
-
-.contactList ul {
-  list-style: none;
-}
-
-.contactLinkText {
-  color: #f2f2f2;
-  font-size: 25px;
-  font-family: "Bebas Neue", cursive;
 }
 
 .profileImg {
@@ -270,4 +270,70 @@ a {
   flex-direction: column;
   align-items: center;
   flex-wrap: nowrap;
+}
+
+@media screen and (min-width: 2240px) {
+  .topnav a {
+    padding: 15px 30px;
+    font-size: 40px;
+  }
+
+
+  .profileImg {
+    width: 375px;
+    height: 375px;  
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 150px;
+  }
+  
+  .nameCard {
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+
+  .name {
+    font-size: 50px;
+    padding: 7.5px 30px;
+  }
+
+  .quote {
+    font-size: 160px;
+    margin-top: 370px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 500px;
+  }
+
+  .aboutText {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+  .column {
+    width: 60%;
+    margin-top: 300px;
+    margin-bottom: 300px;
+  }
+
+  .flexContactList {
+    padding-top: 80px;
+    padding-left: 0px;
+    padding-bottom: 100px;
+    gap: 75px 0px;
+  }
+  
+  .contactLinkText {
+    font-size: 30px;
+  }
+
+  .flexContactList img {
+    width: 175px;
+    height: 175px;
+  }
 }
