@@ -113,6 +113,8 @@ body {
   width: 60%;
   margin: auto;
   padding: 5% 0%;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 /* Style the counter cards */

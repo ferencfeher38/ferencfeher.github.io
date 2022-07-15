@@ -43,7 +43,7 @@ img {
     color: white;
     font-weight: bold;
     font-size: 20px;
-    border-radius: 0 3px 3px 0;
+    border-radius: 0 10px 10px 0;
     user-select: none;
     -webkit-user-select: none;
 }
@@ -58,7 +58,7 @@ img {
     color: white;
     font-weight: bold;
     font-size: 20px;
-    border-radius: 0 3px 3px 0;
+    border-radius: 10px 0 0 10px;
     user-select: none;
     -webkit-user-select: none;
 }
@@ -135,4 +135,152 @@ img {
     border-top: solid;
     border-bottom: solid;
     border-width: 2px;
+}
+
+@media screen and (max-width: 1565px) {
+    .imgTitle {
+        font-size: 20px;
+        width: 50%;
+    }
+
+    .numbertext {
+        font-size: 17.5px;
+    }
+
+    .imgText {
+        font-size: 17.5px;
+    }
+
+    .next {
+        top: 35%;
+        font-size: 15px;
+        border-radius: 0 10px 10px 0;
+    }
+    
+    .prev {
+        top: 35%;
+        font-size: 15px;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .slideColumn {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .slideColumn {
+        width: 22.5%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .next {
+        padding: 17.5px;
+    }
+    
+    .prev {
+        padding: 17.5px;
+    }
+
+    .imgTitle {
+        width: 60%;
+    }
+
+    .slideColumn {
+        width: 25%;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+    .imgTitle {
+        width: 70%;
+        padding: 7.5px;
+    }
+
+    .slideColumn {
+        width: 27.5%;
+    }
+
+    .imgText {
+        padding: 15px;
+    }
+
+    .container {
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    
+    }
+
+    .next {
+        top: 30%;
+        font-size: 12.5px;
+    }
+    
+    .prev {
+        top: 30%;
+        font-size: 12.5px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .imgTitle {
+        width: 80%;
+        font-size: 17.5;
+        padding: 5px;
+    }
+
+    .next {
+        font-size: 12.5px;
+    }
+    
+    .prev {
+        font-size: 12.5px;
+    }
+
+    .imgText {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .slideColumn {
+        width: 30%;
+    }
+
+    .numbertext {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .imgTitle {
+        width: 90%;
+        font-size: 17.5;
+    }
+
+    .next {
+        top: 27.5%;
+        padding: 15px;
+    }
+    
+    .prev {
+        top: 27.5%;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .imgTitle {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .slideColumn {
+        width: 32.5%;
+    }
 }
