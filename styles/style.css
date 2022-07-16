@@ -358,3 +358,64 @@ a {
     font-family: "Square Peg", cursive;
   }
 }
+
+@media screen and (min-width: 2400px) {
+  .topnav a {
+    padding: 20px 35px;
+    font-size: 55px;
+  }
+
+  .quote {
+    font-size: 230px;
+    margin-top: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 600px;
+  }
+
+
+  .profileImg {
+    width: 550px;
+    height: 550px;  
+    border-radius: 160px;
+  }
+  
+  .nameCard {
+    margin-top: 30px;
+  }
+
+  .name {
+    font-size: 80px;
+    padding: 8px 40px;
+  }
+
+  .aboutText {
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .column {
+    width: 60%;
+    margin-top: 400px;
+    margin-bottom: 400px;
+  }
+
+  .flexContactList {
+    padding-top: 80px;
+    padding-left: 0px;
+    padding-bottom: 100px;
+    gap: 150px 0px;
+  }
+  
+  .contactLinkText {
+    font-size: 50px;
+  }
+
+  .flexContactList img {
+    width: 230px;
+    height: 230px;
+  }
+}
