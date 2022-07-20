@@ -247,7 +247,8 @@ a {
   }
 
   .topnav.responsive {
-    position: relative;
+    position: fixed;
+    right: 0;
   }
   .topnav.responsive a.icon {
     position: absolute;
