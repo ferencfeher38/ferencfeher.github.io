@@ -15,7 +15,6 @@ body {
 }
 
 .topnav {
-  overflow: hidden;
   position: fixed;
   top: 0;
   left: 0;
@@ -51,6 +50,7 @@ body {
 }
 
 .quote {
+  position: relative;
   text-align: center;
   color: white;
   font-size: 125px;
@@ -251,11 +251,13 @@ a {
   }
 
   .topnav.responsive {
+    background-color: #000000;
+    opacity: 60%;
     position: fixed;
     right: 0;
   }
   .topnav.responsive a.icon {
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
   }
