@@ -1,3 +1,9 @@
+function HideScrollbar() {
+  var style = document.createElement("style");
+  style.innerHTML = `body::-webkit-scrollbar {display: none;}`;
+  document.head.appendChild(style);
+}
+
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
   var x = document.getElementById("myTopnav");
@@ -6,6 +12,17 @@ function myFunction() {
   } else {
     x.className = "topnav";
   }
+}
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("myTopnav").style.visibility = "visible";
+  } else {
+    document.getElementById("myTopnav").style.visibility = "hidden";
+  }
+  prevScrollpos = currentScrollPos;
 }
 
 

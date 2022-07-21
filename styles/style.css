@@ -5,6 +5,12 @@
 
 html {
   height: 100%;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+html::-webkit-scrollbar {
+  width: 0px; /* For Chrome, Safari, and Opera */
 }
 
 body {
@@ -277,7 +283,7 @@ a {
 
   .column {
     width: 100%;
-    display: block;
+    display: block; 
   }
 
   .flexContactList img {
