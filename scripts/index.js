@@ -14,20 +14,6 @@ function myFunction() {
   }
 }
 
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("myTopnav").style.visibility = "visible";
-    document.getElementById("visible").style.visibility = "visible";
-  } else {
-    document.getElementById("myTopnav").style.visibility = "hidden";
-    document.getElementById("visible").style.visibility = "visible";
-  }
-  prevScrollpos = currentScrollPos;
-}
-
-
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
 
